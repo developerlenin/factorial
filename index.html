@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body >
+   <input id = "num">
+	<button onclick = "ans()"> Factorial </button>
+	<p id = "para"></p>
+<script>
+				function ans(){
+			  	var num;
+				 var two = 1;
+				num = document.getElementById("num").value;
+				for( var i = 1; i <= num; i++)  
+				{two = two * i;}
+				document.getElementById("para").innerHTML =two;
+				}
+</script>
+</body>
+</html>
